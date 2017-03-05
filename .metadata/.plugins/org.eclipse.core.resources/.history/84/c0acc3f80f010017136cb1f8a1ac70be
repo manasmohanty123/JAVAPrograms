@@ -1,0 +1,25 @@
+package JavaProgram;
+
+public class checkNoisPowerOfTwoOrNOt {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int i=16;
+		int k=0;
+		while(i>0)
+		{
+			i=i-2;
+		}
+		
+		if(i==0)
+		{
+			System.out.println("power of two");
+		}
+		else
+		{
+			System.out.println("not power of two");
+		}
+	}
+
+}

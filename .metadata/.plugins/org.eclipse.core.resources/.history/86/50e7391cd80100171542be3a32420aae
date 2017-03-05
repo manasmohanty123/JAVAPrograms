@@ -1,0 +1,10 @@
+package JavaProgram;
+
+public class Print1To100WithOutUsingLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

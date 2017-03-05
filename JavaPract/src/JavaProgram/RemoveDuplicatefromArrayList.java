@@ -1,0 +1,30 @@
+package JavaProgram;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class RemoveDuplicatefromArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	List lst=new ArrayList<>();
+	
+	lst.add(1);
+	lst.add(2);
+	lst.add(3);
+	lst.add(4);
+	lst.add(1);
+	lst.add(2);
+	lst.add(3);
+	System.out.println(lst.toString());
+	
+	 Object[] st = lst.toArray();
+     for (Object s : st) {
+       if (lst.indexOf(s) != lst.lastIndexOf(s)) {
+           lst.remove(lst.lastIndexOf(s));
+        }
+     }
+     System.out.println(lst.toString());
+	}}

@@ -1,0 +1,25 @@
+package JavaProgram;
+
+public class PrimefactorNo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		java.util.Scanner scn=new java.util.Scanner(System.in);
+		int n=scn.nextInt();
+	}
+		public static int primeFact(int n)
+		{
+		
+		for (int i = 2; i <=n; i++) {
+			
+			if (n%i ==0)
+			{
+				n=n/i;
+				i--;
+			}
+		}
+		}
+		
+	}
+
+

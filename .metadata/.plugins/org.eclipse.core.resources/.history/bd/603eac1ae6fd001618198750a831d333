@@ -1,0 +1,32 @@
+package StringPract;
+
+public class LongestPalndromInString {
+
+	public static void main(String[] args) {
+		String bigString = "kjhdskjhsdkjmadamhduufsyyisuyusdygsdjgdsjgdjsgdsjhgdsjh";
+		String bigPoli = "";
+		for (int i = 0; i < bigString.length(); i++) {
+			for (int j = i + 1; j < bigString.length()	; j++) {
+				String s = bigString.substring(i, j);
+				if (isPolindrome(s)) {
+					if (s.length() > bigPoli.length()) {
+						bigPoli = s;
+					}
+				}
+			}
+		}
+		System.out.println(bigPoli);
+	}
+
+	public static boolean isPolindrome(String s) {
+		boolean poli = false;
+		String a = "";
+		for (int i = s.length() - 1; i >= 0; i--) {
+			a = a + s.charAt(i);
+		}
+		if (s.equals(a)) {
+			poli = true;
+		}
+		return poli;
+	}
+}

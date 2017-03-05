@@ -1,0 +1,16 @@
+package StringPract;
+
+import java.util.Iterator;
+
+public class SortStringArrayBaseOnLength {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String[]s={"acbd","xyz","z","kx","tushdj","ankjhsakhskjh","abjhsshjhsbjhsgjsa","FTASGV","AVDHD","ndhfkhfdkjhfkdhfkdfj"};
+		for (String a : s) {
+			System.out.println(s.toString());
+		}
+	}
+
+}

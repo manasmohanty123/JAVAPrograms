@@ -1,0 +1,37 @@
+package StringPract;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
+public class OccuranceInString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="rama";
+		char[] cr=s.toCharArray();
+		Map<Character, Integer>map=new HashMap<Character, Integer>();
+		char c;
+		for (int i = 0; i < cr.length; i++) {
+			c=cr[i];
+			if(map.containsKey(c))
+			{
+				map.put(c, map.get(c)+1);
+			}
+			else
+			{
+				map.put(c, 1);
+			}
+		}
+
+		Iterator<Character>itr=map.keySet().iterator();
+		while(itr.hasNext())
+		{
+			char k=itr.next();
+			int j=map.get(k);
+			
+			System.out.println(k+"="+j);
+		}
+	}
+
+}
