@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Alljars/Alljars/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Alljars/Alljars/cucumber-core-1.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Alljars/Alljars/cucumber-extentsreport-1.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Alljars/Alljars/cucumber-java-1.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Alljars/Alljars/cucumber-junit-1.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Alljars/Alljars/cucumber-jvm-deps-1.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Alljars/Alljars/cucumber-reporting-0.0.21.jar"/>
+	<classpathentry kind="lib" path="D:/Alljars/Alljars/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="D:/Alljars/Alljars/junit-dep-4.11.jar"/>
+	<classpathentry kind="lib" path="D:/Alljars/Alljars/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/bsh-1.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/cssparser-0.9.16.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/extentreports-java-2.40.2.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/htmlunit-2.17.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/htmlunit-core-js-2.17.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/httpclient-4.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/httpmime-4.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/jcommander-1.29.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/jetty-io-9.2.11.v20150529.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/jetty-util-9.2.11.v20150529.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/nekohtml-1.9.22.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/poi-3.13-beta1-20150723.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/poi-examples-3.13-beta1-20150723.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/poi-excelant-3.13-beta1-20150723.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/poi-ooxml-3.13-beta1-20150723.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/poi-ooxml-schemas-3.13-beta1-20150723.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/poi-scratchpad-3.13-beta1-20150723.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/selenium-java-2.47.1.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/selenium-java-2.47.1-srcs.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/websocket-api-9.2.11.v20150529.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/websocket-client-9.2.11.v20150529.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/websocket-common-9.2.11.v20150529.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="D:/E Drive/resorc/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/Driver/selenium-server-standalone-3.5.3.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
